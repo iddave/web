@@ -157,13 +157,16 @@ header {
 }
 
 .petpic {
-    /*position: relative;*/
+    position: absolute;
     width: 750px;
     height: 750px;
+    bottom: 0;
+    right: 100px;
 }
 
 .petpic .dog {
     height: 90%;
+    display: flex;
     /*width: 100%;*/
     position: absolute;
     z-index: 2;
@@ -173,16 +176,17 @@ header {
 
 .petpic .cat {
     z-index: 1;
+    display: flex;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: -100px;
 }
 
 .petpic .ellipse {
     z-index: 0;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: -100px;
 }
 
 .advantages_section {
@@ -242,18 +246,13 @@ h2 span {
 .icon_img {
     width: 95px;
     height: 85px;
-    position: relative;
     border-radius: 8px;
+    display: flex;
 
 }
 
 .icon_img img {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    margin:  auto;
 }
 
 .items h3 {
