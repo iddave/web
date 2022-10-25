@@ -403,7 +403,7 @@ header {
 
 }
 
-.vitalcare button{
+.common_btn{
 	width: 201px;
 	height: 52px;
 
@@ -496,4 +496,81 @@ header {
 	text-align: center;
 
 	color: #F63D3D;
+}
+
+.bigcat{
+    margin:100px 0;
+    background-image: url(images/bacground_for_cat.png);
+    background-repeat: no-repeat;
+}
+
+.bigcat .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bigcat .catpic{
+    position: relative;
+    width: 650px;
+    height: 625px;
+}
+
+.bigcat .catpic img{
+    position: absolute;
+    max-width: 850px;
+    max-height: 625px;
+    right: 0;
+    bottom: 26px;
+}
+
+.bigcat .desc{
+    max-width: 500px;
+}
+
+.bigcat .logo{
+    display: flex;
+}
+
+.bigcat .logo img{
+    float: left;
+    margin: auto 0;
+}
+
+.bigcat .logo p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #0D0D0D;
+}
+
+.bigcat .logo span{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.bigcat .title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: capitalize;
+
+    color: #0D0D0D;
+}
+.bigcat .text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #0D0D0D;
 }
